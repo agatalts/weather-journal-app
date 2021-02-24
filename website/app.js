@@ -19,10 +19,9 @@ getWeather(baseURL,newZipcode, apiKey)
 .then(function(data) {
   console.log(data);
   postData('/add', {temperature: Math.floor(data.main.temp - 273), date: newDate, feelings: feelings}, )
-})
-.then (
   updateUI()
-)
+})
+
 }
 const getWeather = async (baseURL, zipcode, key)=>{
 
