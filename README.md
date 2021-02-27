@@ -6,5 +6,5 @@ This is an asynchronous web app that uses Web API and user data to dynamically u
 
 ## Instructions
 
-It is required to install node js, express and body-parser to run this app
+It is required to install node js, express and body-parser to run this app<br>
 Start the server (server.js) and open index.html
