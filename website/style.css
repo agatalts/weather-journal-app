@@ -11,11 +11,16 @@ h1 {
   font-size: 30px;
 }
 
+a {
+  color: #00796b;
+  font-weight: 600;
+}
+
 #app {
   background: #dbf6bd;
   border: 3px solid #00796b;
   border-radius: 45px;
-  margin: 30px auto;
+  margin: 30px auto 5px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   width: 90vw;
   display: grid;
@@ -140,8 +145,20 @@ input {
   min-height: 80px;
 }
 
+footer {
+  width: 90vw;
+  margin: 0 auto;
+  color: #00796b;
+  padding-left: 70px;
+  font-size: 12px;
+}
+
 @media (min-width: 900px) {
   #app {
+    width: 700px;
+  }
+
+  footer {
     width: 700px;
   }
 }
